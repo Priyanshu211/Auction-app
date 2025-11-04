@@ -1,0 +1,19 @@
+# Core Django dependencies
+Django==5.2.7
+asgiref==3.10.0
+sqlparse==0.5.3
+tzdata==2025.2
+
+# Forms and Bootstrap styling
+django-crispy-forms==2.3
+crispy-bootstrap5==0.7
+
+# Image handling (optional but recommended for listings)
+Pillow==12.0.0
+
+# Security and environment handling (optional)
+python-decouple==3.8
+
+# Optional for deployment or debugging
+whitenoise==6.8.2
+gunicorn==23.0.0
